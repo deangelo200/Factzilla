@@ -1,0 +1,22 @@
+
+.picture-background{
+background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("../Fz-imgs/fact-img/animal.jpeg");
+background-position:center;
+background-size:cover;
+}
+
+
+
+
+.main-home-nav{
+   background-color: rgba(39, 174, 96, 0.50);
+}
+
+.main-home-nav:after,
+.main-home-nav:before{
+    background-color: rgba(39, 174, 96, 0.50);
+}
+
+
+
+/*rfdf*/

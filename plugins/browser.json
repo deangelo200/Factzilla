@@ -15,6 +15,15 @@
         },
         "cordova-plugin-statusbar": {
             "PACKAGE_NAME": "com.dracostudio.factzilla"
+        },
+        "cordova-plugin-tts": {
+            "PACKAGE_NAME": "com.dracostudio.factzilla"
+        },
+        "com.darktalker.cordova.screenshot": {
+            "PACKAGE_NAME": "com.dracostudio.factzilla"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "com.dracostudio.factzilla"
         }
     },
     "dependent_plugins": {}
