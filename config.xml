@@ -43,4 +43,6 @@
     <plugin name="cordova-plugin-x-socialsharing" />
     <plugin name="com.darktalker.cordova.screenshot" />
     <plugin name="cordova-plugin-tts" />
+    <plugin name="cordova-plugin-mopub" />
+    
 </widget>

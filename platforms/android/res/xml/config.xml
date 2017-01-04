@@ -1,5 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.dracostudio.factzilla" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.dracostudio.factzilla" version="0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="TTS">
+        <param name="android-package" value="com.wordsbaking.cordova.tts.TTS" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Screenshot">
+        <param name="android-package" value="com.darktalker.cordova.screenshot.Screenshot" />
+    </feature>
+    <feature name="SocialSharing">
+        <param name="android-package" value="nl.xservices.plugins.SocialSharing" />
+    </feature>
+    <feature name="MoPub">
+        <param name="android-package" value="com.rjfun.cordova.mopub.MoPubPlugin" />
+    </feature>
     <name>Factzilla</name>
     <description>
         A basic Framework7 template for PhoneGap.
@@ -25,14 +38,4 @@
     <preference name="loglevel" value="DEBUG" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
-    <feature name="TTS">
-        <param name="android-package" value="com.wordsbaking.cordova.tts.TTS" />
-        <param name="onload" value="true" />
-    </feature>
-    <feature name="Screenshot">
-        <param name="android-package" value="com.darktalker.cordova.screenshot.Screenshot" />
-    </feature>
-    <feature name="SocialSharing">
-        <param name="android-package" value="nl.xservices.plugins.SocialSharing" />
-    </feature>
 </widget>
