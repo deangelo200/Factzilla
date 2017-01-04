@@ -14,11 +14,12 @@ function onLoad()
 
     var publisherId = ( /(android)/i.test(navigator.userAgent) ) ? ad_units.android : ad_units.ios;
         
-    if(MoPub) MoPub.createBanner( publisherId );
+    if(MoPub) MoPub.createBanner( {
+    adId: adid.banner, 
+    position:MoPub.AD_POSITION.BOTTOM_CENTER, 
+    autoShow:true} );
         
-    if(MoPub){
-        alert('If installed')
-    }
+   
 
     }
 }
