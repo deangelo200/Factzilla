@@ -14,7 +14,7 @@ function onLoad()
 
     var publisherId = ( /(android)/i.test(navigator.userAgent) ) ? ad_units.android : ad_units.ios;
         
-    if(MobFox) MobFox.createBanner( publisherId );
+    if(MoPub) MoPub.createBanner( publisherId );
 
     }
 }
