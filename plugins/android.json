@@ -15,17 +15,7 @@
         },
         "cordova-plugin-x-socialsharing": {
             "PACKAGE_NAME": "com.dracostudio.factzilla"
-        },
-        "com.rjfun.cordova.flurryads": {
-            "PACKAGE_NAME": "com.dracostudio.factzilla"
         }
     },
-    "dependent_plugins": {
-        "cordova-plugin-extension": {
-            "PACKAGE_NAME": "com.dracostudio.factzilla"
-        },
-        "cordova-plugin-googleplayservices": {
-            "PACKAGE_NAME": "com.dracostudio.factzilla"
-        }
-    }
+    "dependent_plugins": {}
 }

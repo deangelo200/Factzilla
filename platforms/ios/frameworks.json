@@ -1,13 +1,4 @@
 {
     "Social.framework": 1,
-    "MessageUI.framework": 2,
-    "CFNetwork.framework": 1,
-    "AdSupport.framework": 1,
-    "Foundation.framework": 1,
-    "MediaPlayer.framework": 1,
-    "Security.framework": 1,
-    "StoreKit.framework": 1,
-    "SystemConfiguration.framework": 1,
-    "UIKit.framework": 1,
-    "libz.dylib": 1
+    "MessageUI.framework": 1
 }

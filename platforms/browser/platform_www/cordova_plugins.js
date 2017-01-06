@@ -31,14 +31,6 @@ module.exports = [
         "clobbers": [
             "window.plugins.socialsharing"
         ]
-    },
-    {
-        "file": "plugins/com.rjfun.cordova.flurryads/www/Flurry.js",
-        "id": "com.rjfun.cordova.flurryads.FlurryAds",
-        "pluginId": "com.rjfun.cordova.flurryads",
-        "clobbers": [
-            "window.FlurryAds"
-        ]
     }
 ];
 module.exports.metadata = 
@@ -49,9 +41,7 @@ module.exports.metadata =
     "cordova-plugin-statusbar": "1.0.1",
     "cordova-plugin-tts": "0.2.3",
     "com.darktalker.cordova.screenshot": "0.1.5",
-    "cordova-plugin-x-socialsharing": "5.1.3",
-    "cordova-plugin-extension": "1.5.1",
-    "com.rjfun.cordova.flurryads": "5.3.4"
+    "cordova-plugin-x-socialsharing": "5.1.3"
 }
 // BOTTOM OF METADATA
 });

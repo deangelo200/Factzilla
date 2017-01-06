@@ -9,17 +9,17 @@ function onLoad()
        var ad_units = 
         {
             
-            android : "d8120da6a248471aac7c46408bca3e9a"
+            android : "Q9DP2SNRKCQCHT5PWT4T"
         };
 
     var publisherId = ( /(android)/i.test(navigator.userAgent) ) ? ad_units.android : ad_units.ios;
         
-    if(MoPub) MoPub.createBanner( {
+    if(FlurryAds) FlurryAds.createBanner( {
     adId: adid.banner, 
-    position:MoPub.AD_POSITION.BOTTOM_CENTER, 
+    position:FlurryAds.AD_POSITION.BOTTOM_CENTER, 
     autoShow:true} );
         
-   
+   if(FlurryAds){alert('working flurry')}
 
     }
 }
