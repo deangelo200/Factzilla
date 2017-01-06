@@ -49,11 +49,11 @@ module.exports = [
         ]
     },
     {
-        "id": "cordova-plugin-mopub.MoPub",
-        "file": "plugins/cordova-plugin-mopub/www/MoPub.js",
-        "pluginId": "cordova-plugin-mopub",
+        "id": "com.rjfun.cordova.flurryads.FlurryAds",
+        "file": "plugins/com.rjfun.cordova.flurryads/www/Flurry.js",
+        "pluginId": "com.rjfun.cordova.flurryads",
         "clobbers": [
-            "window.MoPub"
+            "window.FlurryAds"
         ]
     }
 ];
@@ -67,8 +67,7 @@ module.exports.metadata =
     "cordova-plugin-whitelist": "1.2.2",
     "cordova-plugin-x-socialsharing": "5.1.3",
     "cordova-plugin-extension": "1.5.1",
-    "cordova-plugin-cocoapod-support": "1.2.10",
-    "cordova-plugin-mopub": "2.3.0"
+    "com.rjfun.cordova.flurryads": "5.3.4"
 };
 // BOTTOM OF METADATA
 });

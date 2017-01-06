@@ -50,15 +50,6 @@
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-plugin-mopub": {
-        "source": {
-            "type": "git",
-            "url": "https://github.com/floatinghotpot/cordova-plugin-mopub.git",
-            "subdir": "."
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "cordova-plugin-extension": {
         "source": {
             "type": "registry",
@@ -71,6 +62,25 @@
         "source": {
             "type": "registry",
             "id": "cordova-plugin-cocoapod-support"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "com.rjfun.cordova.flurryads": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/floatinghotpot/cordova-plugin-flurry.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-googleplayservices": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/floatinghotpot/google-play-services",
+            "subdir": ".",
+            "ref": "r19"
         },
         "is_top_level": false,
         "variables": {}
