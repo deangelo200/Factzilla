@@ -78,3 +78,5 @@ if(localStorage!=null)
 
 })
      
+
+alert('JS WORKING')
