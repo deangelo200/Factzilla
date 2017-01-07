@@ -112,7 +112,7 @@ function shareFact(){
                 $(".sharing").fadeIn(500).fadeOut(3000);
                 console.log('ok',res.filePath);
                 imageLink = res.filePath;
-                window.plugins.socialsharing.share(null,null, 'file://'+imageLink, null);
+                window.plugins.socialsharing.share(null,null, 'file://'+imageLink, "https://play.google.com/store/apps/details?id=com.dracostudio.factzilla");
                 
                 
             }
