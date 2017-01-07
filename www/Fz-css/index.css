@@ -37,13 +37,13 @@ h1{
 
 .btn-full:visited,
 .btn-full:link{
-    position: relative;
+    position: absolute;
     display: inline-block;
     padding: 10px 40px;
-    margin: 0 auto;
     margin-top: 150px;
     left: 50%;
-    transform: translate(-50%);
+    top: 50%;
+    transform: translate(-50%,-50%);
     border: 2px solid #fff;
     border-radius: 130px;
     background-color: transparent;
@@ -62,13 +62,3 @@ h1{
 }
 
 
-.Dracostudio{
-    color: #FFF;
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    
-}
-
- 
